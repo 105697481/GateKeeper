@@ -1,0 +1,56 @@
+.logo {
+  position: fixed;   /* dính cố định trên màn hình */
+  top: 0px;         /* khoảng cách với mép trên */
+  left: 0px;        /* khoảng cách với mép trái */
+  width: 80px;       /* kích thước logo */
+  height: auto;
+  z-index: 999;      /* đảm bảo nổi lên trên các phần khác */
+}
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+header, footer { 
+    background: #f4f4f4; 
+    padding: 5px; 
+    text-align: center; 
+}
+header h1 {
+    color: midnightblue;
+    margin-bottom: 5px;
+}
+header p {
+    font-style: italic;
+    color: skyblue;
+    margin-top: 0;
+}
+
+nav ul { 
+    list-style: none; 
+    margin: 0; padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+nav a { 
+    text-decoration: none;
+     color: #333; 
+}
+
+main { 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 0 20px; 
+}
+.bottom-logo {
+  display: block;
+  margin: 20px left auto;
+  max-width: 20%;
+  height: auto;
+}
+footer a { 
+    margin: 0 10px; 
+    color: #0066cc; 
+    text-decoration: none; 
+}
+footer a:hover { text-decoration: underline; }
+

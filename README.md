@@ -1,2 +1,1 @@
-# GateKeeper
-Our company website
+# GateKeeperindex
